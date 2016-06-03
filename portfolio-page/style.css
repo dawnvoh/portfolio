@@ -1,0 +1,214 @@
+#navbar ul {
+  position: fixed;
+  z-index: 3;
+  margin-top: 10px;
+  width: 100%;
+  right: 0;
+  background-color: #D9C0EF;
+  opacity: 0.91;
+  list-style: none; /*no bullets*/
+  -moz-box-shadow: 1px 1px 1px #EFEFEF;
+  -webkit-box-shadow: 1px 1px 1px #EFEFEF;
+  box-shadow: 1px 1px 1px #EFEFEF;
+}
+
+#navbar li {
+  display: block;
+  float: left;
+}
+
+#navbar li a:link,
+#navbar li a:visited {
+  display: block;
+  width: 100px;
+  padding: 4px;
+  color: #333333;
+  background-color: #D9C0EF;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline-color: #FFF;
+  outline-style: ridge;
+}
+
+#navbar ul li:first-child a:link,
+#navbar ul li:first-child a:visited {
+  text-shadow: 0 0 3px #EEE, 0 0 10px #FFF;
+  outline-style: none;
+}
+
+#navbar li a:hover,
+#navbar li a:active {
+  background-color: #A9A9F5;
+}
+
+body {
+  overflow: scroll;
+  font-family: arial, verdana, sans-serif;
+}
+
+.text {
+  font-family: arial, verdana, sans-serif;
+}
+
+.btn.btn-lg.btn-github,
+.btn.btn-lg.btn-github:link {
+  color: #FFF;
+  background-color: #333;
+}
+.btn.btn-lg.btn-github:visited,
+.btn.btn-lg.btn-github:focus, 
+.btn.btn-lg.btn-github:hover,
+.btn.btn-lg.btn-github:active {
+  color: #FFF;
+  background-color: #222;
+}
+/*Thanks to user ndcweb for his input here: 
+http://stackoverflow.com/questions/24222798/how-to-remove-the-blue-box-shadow-border-in-button-if-clicked*/
+button.btn:visited,
+button.btn:focus, button.btn:hover,
+button.btn:active,
+button.btn:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+my-hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.major-section {
+  padding: 120px;
+  /*keep content away from navbar*/
+  text-align: center;
+  color: #222;
+  background-color: #FFF;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 700px;
+}
+
+#home {
+  /*background-image: url(/images/firstBackground.JPG);*/
+  background-image: url(http://i1006.photobucket.com/albums/af185/Dawn_Vohwinkel/Website%20Photos/e8f2ef2d-1497-4aa4-97e8-1ed3b20304cf_zpsmnmlwpl7.jpg);
+  text-shadow: 0 0 3px #EEE, 0 0 10px #FFF;
+}
+
+#pos-social-links {
+  margin-top: 120px;
+}
+
+.pos-button {
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 35px;
+}
+/*workaround for Adblock blocking social links*/
+.my-fa-linkedin:before {
+  content: "\f0e1";
+}
+
+#about {
+  background-image: url(http://i1006.photobucket.com/albums/af185/Dawn_Vohwinkel/Website%20Photos/2b4dc93d-e77f-45bf-ba8d-c0bf217f01db_zpsrh5rq3lp.jpg);
+}
+
+#about ul li {
+  color: #EEE;
+  text-shadow: 0 0 2px #111111;
+}
+/* future feature */
+/*#hello {  
+  display: none;
+}*/
+
+#portfolio {
+  background-image: url(http://i1006.photobucket.com/albums/af185/Dawn_Vohwinkel/Website%20Photos/4eadcd7a-6653-4c14-b31a-90b577522a41_zpsnaq58oy6.jpg);
+  background-color: #FFFFCC;
+  z-index: -1;
+}
+
+#folio {
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+.project-image a {
+  position: relative;
+  width: 100%; /* for IE 6 */
+  float: left;
+  margin-bottom: 30px;
+  -moz-box-shadow: 0 0 7px #222;
+  -webkit-box-shadow: 0 0 7px #222;
+  box-shadow: 0 0 7px #222;
+}
+
+.project-image h2,
+.project-image h3 {
+  position: absolute;
+  float: left;
+  z-index: 2; 
+  left: 0;
+  top: 10px;
+  text-align: left;
+}
+
+.project-image h2 span,
+.project-image h3 span {
+  float: left;
+  font-family: arial, verdana, sans-serif; 
+  letter-spacing: -1px;  
+  background: #C9B2DD;
+  opacity: 0.8;
+  padding: 0 5px 0 5px; 
+}
+.project-image div {
+  color: #333333;
+  /*color: #BCA7CE;*/
+}
+.project-image div:hover,
+.project-image div:hover {
+  color: #FFF;
+}
+
+#contact {
+  background-image: url(http://i1006.photobucket.com/albums/af185/Dawn_Vohwinkel/Website%20Photos/10397034_767937069905335_1712920990706317208_o_zps7juwo7eu.jpg);
+}
+
+.my-link:link,
+.my-link:active,
+.my-link:visited {
+  color: #222;
+  text-decoration: underline;
+}
+
+.my-link:hover {
+  color: #D9C0EF;
+  text-decoration: underline;
+}
+
+#progress-section {
+  position: relative;
+  top: 250px;
+  bottom: 50px;
+  z-index: 0;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  top: 50px;
+  bottom: 10px;
+  z-index: 0;
+}
