@@ -1,0 +1,33 @@
+/*  reset browser defaults  */
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  background: url(road.jpg) top left no-repeat;
+  font-family: Verdana, sans-serif;
+  color: floralwhite;
+  font-size: 150%;
+  text-shadow: 0 0 5px black;
+}
+
+main {
+  margin: 15px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 300%;
+}
+
+p {
+  margin-top: 2px;
+}
+
+a {
+  color:#FFFE65;
+}
