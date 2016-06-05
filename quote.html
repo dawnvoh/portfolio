@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Random Quote Generator</title>
+    <meta name="quote" content="FreeCodeCamp challenge to build a random quote generator">
+    <link rel="stylesheet" href="quote.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+  </head>
+    
+  <body>
+    <div class="container-fluid">
+      <div id="title-block" class="row">
+        <h1><stong>Quips</strong></h1>
+        <my-hr></my-hr>
+        <h3>A collection of quotes to inspire</h3>
+      </div>
+
+      <div class="row" id="button-row">
+        <a class="btn btn-lg" href="#" id="quote-btn"><i class="fa fa-chevron-circle-down"></i> New Quote</a>
+        <a class="btn btn-lg" id="twt-btn" href="https://twitter.com/intent/tweet" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+      </div>
+
+      <div id="quote-box">
+        <span id="quote-text">When you look in the mirror, I hope you see what's inside... and that you are beautiful inside and out. ~Sara</span>
+      </div>
+
+      <p id="footer">See more projects at <a href="http://www.dawnvoh.com" class="my-link" target="_blank">dawnvoh.com</a></p>
+    </div>
+
+    <script type="text/javascript">
+      document.getElementById("quote-btn").onclick = function() { 
+        getQuote(); 
+      };
+      document.getElementById("twt-btn").onclick = function() { 
+        var twtText = "https://twitter.com/intent/tweet?text=" +   document.getElementById("quote-text").innerHTML + "  (see more at http://codepen.io/dawnvoh/full/rOLVYE)";
+
+        document.getElementById("twt-btn").href = twtText; 
+      };			  
+    </script>
+    <script src="quote.js"></script>
+
+  </body>
+</html>
