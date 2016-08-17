@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+
+#calculator {
+  padding: 5px;
+  margin: auto; /*horizontal center on screen*/
+  margin-top: 40px;
+  width: 321px;
+  height: 502px;
+  border-radius: 5%;
+  box-shadow: 0 0 5px #888888;
+  background-color: #EAE0D4;
+}
+
+#display {
+  background-color: #666;
+  border-radius: 16px;
+  border-style: inset;
+  border-width: 3.5px;
+  position: relative;
+  margin: 8px 8px 7px 7px;
+  width: 303px;
+  height: 80px;
+}
+#displayStr {
+  font-family: Orbitron;
+  font-size: 3em;
+  color: #020202;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+
+#row5 {
+  float: left;
+}
+.button {
+  border-radius: 20%;
+  box-shadow: 1px 1px 2px #666666;
+  position: relative;
+  float: left;
+  margin: 5px;
+  /*width: 70px;
+  height: 70px;*/
+  width: 66px;
+  height: 66px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: #DDD;
+  opacity: 1.0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bigButton {
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px #888888;
+  position: relative;
+  float: left;
+  margin: 5px;
+  margin-top: -75px;
+  /*width: 70px;
+  height: 150px;*/
+  width: 66px;
+  height: 146px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: #DDD;
+  text-align: center;
+}
+
+.button h1 {
+  font-family: "Helvetica", "sans-serif";
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  padding-left: 3px;
+  
+  /* vertical centering: */
+  position: relative;
+  top: 0;
+  transform: translateY(-29%);
+}
+#mult h1 {
+  position: relative;
+  transform: translateY(-35%);
+}
+#subtract h1 {
+  font-family: Orbitron;
+  position: relative;
+  transform: translateY(-40%);
+}
+
+.bigButton h1 {
+  /* vertical centering: */
+  position: relative;
+  top: 25%;
+  transform: translateY(-25%);
+}
+
+.color11 { background-color: crimson; }
+.color12 { background-color: orangered; }
+.color13 { background-color: orange; }
+.color14 { background-color: #59CD90; }
+.color21 { background-color: #68BCFF; }
+.color22 { background-color: #68BCFF; }
+.color23 { background-color: #68BCFF; }
+.color24 { background-color: #59CD90; }
+.color31 { background-color: #68BCFF; }
+.color32 { background-color: #68BCFF; }
+.color33 { background-color: #68BCFF; }
+.color34 { background-color: #59CD90; }
+.color41 { background-color: #68BCFF; }
+.color42 { background-color: #68BCFF; }
+.color43 { background-color: #68BCFF; }
+.color44 { background-color: #48A675; }
+.color51 { background-color: #68BCFF; }
+.color52 { background-color: #68BCFF; }
+.color53 { background-color: #409EBF; }
+.color54 { background-color: #48A675; }
