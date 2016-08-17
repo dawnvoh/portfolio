@@ -4,8 +4,7 @@ body {
   margin: 0 auto 0 auto;
   padding: 0;
   overflow: scroll;
-  background: linear-gradient(350deg, rgba(255,255,255,0),
-  rgba(255,255,255,0.5)), url(http://i1006.photobucket.com/albums/af185/Dawn_Vohwinkel/Website%20Photos/news20banner_zpsejrs7wlg_1.jpg);
+  background: linear-gradient(350deg, rgba(255,255,255,0), rgba(255,255,255,0.5)), url(newsbanner-min.JPG);
   background-repeat: no-repeat;
   background-position: top;
   font-family: Verdana, Helvetica, sans-serif;
