@@ -3,7 +3,7 @@ body {
   padding: 0;
   overflow: scroll;
   background: linear-gradient(50deg, rgba(255,255,255,0),
-  rgba(255,255,255,1)), url(QuoteAppDuckBackground.PNG);
+  rgba(255,255,255,1)), url(QuoteAppDuckBackground-min.PNG);
   /* background-position: center; */
   background-size: cover;
   max-width: 100%;
