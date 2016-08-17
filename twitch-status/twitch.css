@@ -1,0 +1,158 @@
+body {  
+  background-color: #ebdbcd;
+  font-family: Verdana, sans-serif;
+  color: #545557;
+  overflow: scroll;
+}
+@font-face {
+  font-family: "Kimberley";
+  src: url(https://dl.dropboxusercontent.com/u/95037532/kimberley%20bl.ttf) format("truetype");
+}
+
+h1 {
+  cursor: default;
+  display: inline;
+  font-family: Kimberley, Verdana, sans-serif;
+  color: white;
+  text-shadow:
+    0 7px 0 #505050,
+    -2px -2px 0 #545557,  
+    2px -2px 0 #545557,
+   -2px  2px 0 #545557,
+    2px  2px 0 #545557;
+}
+h1 i {
+  color: #505050;
+  text-shadow: 0 2px 0 white;
+}
+
+#twitch:link, #twitch:visited,
+#twitch:hover, #twitch:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+#outer {
+  text-align: center;
+  margin-top: -40px;
+}
+
+#content {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  width: 302px;
+  /*100 + 1 + 100 + 1 + 100*/
+}
+#temp {
+  margin-left: -40px;  /* why, oh why do I need this?? */
+}
+#header {
+  margin: 0 auto;
+}
+
+.columnHead {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #ECC817;
+  line-height: 50px; /*must match height value*/
+}
+
+#online {
+  border-style: none solid none solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+#pointerRow {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  height: 25px;
+}
+
+.pointerBlock {
+  float: left;
+  display: inline-block;
+  height: 17px; /*must change if triangle height=12 changes*/
+  width: 100px;
+  margin-top: -12px
+}
+
+.trianglePointer {
+  width: 12px;
+  height: 12px;
+  background: #ECC817;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  /* Rotate Origin */
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+#triangle2, #triangle3 {
+  display: none;
+}
+
+#searchBar {
+  clear: both;
+  text-align: left;
+  margin: 5px;
+  margin-top: 40px;
+  width: 95%;
+  padding-left: 3px;
+  padding-bottom: 16px;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #999;
+}
+#searchText {
+  border: 1px solid #999;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 82%;
+}
+
+#reload {
+  padding-left: 5px;
+  border-style: none none none solid;
+  border-width: 1px;
+  border-color: #999;
+  cursor: pointer;
+}
+#reload:link, #reload:visited,
+#reload:hover {
+  color: #545557;
+}
+#reload:active {
+  color: #999;
+}
+
+#channelList {
+  text-align: left;
+  list-style: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 35px;
+}
+#channelList li {
+  padding-top: 20px;
+}
+#channelList a {
+  color: purple;
+}
+#channelList em {
+  font-size: 70%;
+}
