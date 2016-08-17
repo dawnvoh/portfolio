@@ -1,0 +1,84 @@
+body {
+  overflow: scroll;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #F6F6F6;
+  background: linear-gradient(180deg, white 4%, #F6F6F6 10%, #EEE 60%, #F6F6F6);
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #064599;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+  color: #02296B;
+}
+
+#leftCol {
+  float: left;
+  width: 135px;
+  height: 100vh;
+  margin-top: -10px;
+  line-height: 115%;
+}
+
+#links {
+  margin: 25px 0 0 8px;
+  font-size: 0.8em;
+}
+
+#rightCol {
+  min-width: 370px;
+  margin: -10px auto 0 135px;
+  padding-left: 20px;
+  font-size: 0.95em;
+  border-left: 1px solid #A6C8FF;
+  min-height: 100vh;
+  background-color: white;
+}
+
+h2 {
+  font-family: "Linux Libertine", Times, serif;
+  font-size: 2.0em;
+  font-weight: lighter;
+  line-height: 1.3;
+  margin-bottom: 0.25em;
+  border-bottom: 1px solid #aaa;
+}
+
+#searchText {
+  width: 350px;
+  padding: 7px;
+}
+#searchIcon {
+  margin-left: -19px;
+  cursor: pointer;
+  color: #555;
+}
+
+#newsArea {
+  padding: 0;
+  list-style-type: none;
+}
+
+#newsArea h4 {
+  margin-top: 18px;
+  margin-bottom: 2px;
+  -webkit-margin-before: 18px;
+  -webkit-margin-after: 2px;
+}
+#newsArea p {
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+#newsArea .searchHitData {
+  margin-top: 2px;
+  -webkit-margin-before: 2px;
+  color: green;
+}
